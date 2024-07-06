@@ -1,0 +1,180 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('fondo.jpg') no-repeat center center/cover; 
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5em 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p{
+    color: black;
+}
+
+#hero {
+    color: #fff;
+    text-align: center;
+    padding: 3em 0;
+}
+
+#services {
+    padding: 2em;
+    text-align: center;
+    color: #fff;
+}
+
+.service {
+    margin: 2em 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.red-social a {
+    margin: 0 2em;
+}
+
+.red-social img {
+    width: 32px;
+    height: 32px;
+}
+
+ form {
+    color: #0c0b0b;
+    background-color: #13102dd8;
+    padding: auto ;
+    max-width: auto;
+}
+  
+.container {
+    margin:auto; 
+    padding: auto;
+    background: rgb#fffeff;
+    box-shadow: 0 0 30px rgb(222, 51, 17);
+}
+label {
+    margin: 0 auto;
+    display:none;
+    color: #f9f9fa;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select , B {
+    margin: auto;
+    width: 20%;
+    padding: 9px;;
+    border: 3px solid #f507aa89;
+    border-radius: 4px;
+    background-color: #36010152;
+    color: #ffffff;
+}
+
+input[type="submit"]{
+    background-color: #5405f3be;
+    color: #f9f6f6;
+    padding: 30px 40px;
+    border-radius: 30px;
+    cursor: CENTER;
+    text-align: center;
+}
+
+form :hover{
+    color: #ebecf1;
+    transform: scale(1);
+    background-color: #f90372;
+}
+
+nav :hover{
+    color: #f90372;
+    transform: scale(1);
+}
+a :hover{
+    color: #f90372;
+    transform: scale(1);
+}
+
+footer{
+    color: hsl(120, 25%, 86%);
+}
+a {
+    color: #0b0116;
+}
+::placeholder{
+    color: #fbfdfe;
+}
+H1, H2, h3{
+    color: #000000;
+    border: 4px solid #0737f589;
+    background-color: #fbfdfe91;
+}
+p{
+    font-size: 20px;
+    color: #000000;
+    border: 3px solid #0737f589;
+    background-color: #ffffff91;
+}
+/* Estilos predeterminados para todos los dispositivos */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Estilos para pantallas pequeñas (teléfonos) */
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Estilos para pantallas medianas (tabletas) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-color: lightgreen;
+    }
+    .container {
+        padding: 20px;
+    }
+}
+
+/* Estilos para pantallas grandes (computadoras de escritorio) */
+@media (min-width: 1025px) {
+    body {
+        background-color: lightcoral;
+    }
+    .container {
+        padding: 30px;
+    }
+}
+
+  

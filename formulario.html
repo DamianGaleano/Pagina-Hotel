@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" href="HOTELicono.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="formulario.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+            <main>
+                <div class="container">
+                    <center><h2>REGISTRO DE CLIENTES</h2></center>
+                    <fieldset>
+                        <form action="https://formspree.io/f/myyrqkrg" method="post">
+                            <label for="Nombre">Nombre:</label>
+                            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre" required>
+            
+                            <label for="Apellido">Apellido:</label>
+                            <input type="text" id="Apellido" name="Apellido" placeholder="Apellido" required>
+            
+                            <label for="Dni">DNI:</label>
+                            <input type="number" id="Dni" name="Dni" placeholder="DNI" required><br>
+            
+                            <label for="FechaIngreso">Inicio de estadía:</label>
+                            <input type="date" id="FechaIngreso" name="FechaIngreso"  required>
+            
+                            <label for="FechaEgreso">Fin de estadía:</label>
+                            <input type="date" id="FechaEgreso" name="FechaEgreso" required>
+            
+                            <label for="FormaDePago">Forma de pago:</label>
+                            <select name="FormaDePago" required>
+                                <option value="Tarjeta de débito">Tarjeta de débito</option>
+                                <option value="Tarjeta de crédito">Tarjeta de crédito</option>
+                                <option value="Efectivo">Efectivo</option>
+                            </select>
+            
+                            <label for="MenuComidas">Menú de comidas:</label>
+                            <input type="text" name="MenuComidas" placeholder="Menú" required autocomplete="on">
+            
+                            <label for="CategoriaDeAlojamiento">Categoría de alojamiento:</label>
+                            <select name="CategoriaDeAlojamiento" required>
+                                <option value="Estándar">Estándar</option>
+                                <option value="Deluxe">Deluxe</option>
+                            </select>
+                            <BR><BR>
+                            <label for="ServiciosAdicionales">Servicios adicionales:</label>
+                            <input type="radio" name="ServiciosAdicionales" value="SPA" ><B>SPA </B>
+                            <input type="radio" name="ServiciosAdicionales" value="SAUNA" ><B>SAUNA</B> 
+                            <input type="radio" name="ServiciosAdicionales" value="Servicio al Cuarto" ><B>SERVICIO AL CUARTO</B>
+                            <br><br>
+                            <center><input type="submit" value="GUARDAR"></center>
+                        </form>
+                    </fieldset>
+                </div>
+            </main>
+            <footer>
+      </div>
+          <div class="red-social">
+            <center><h3>PODES ENCONTRARNOS EN NUETRAS REDES SOCIALES.</h3></center>
+          <a href="https://www.facebook.com" target="_blank"><img src="icons8-facebook-nuevo-48.png" alt="Facebook"></a>
+          <a href="https://www.twitter.com" target="_blank"><img src="icons8-twitter-60.png" alt="Twitter"></a>
+          <a href="https://www.instagram.com" target="_blank"><img src="icons8-instagram-48.png" alt="Instagram"></a>
+      </div>
+                  <p>&copy; 2024 Servicios de Hotelería TSDS. Todos los derechos reservados.</p>
+              </footer>
+        </body>
+</html>
